@@ -1,0 +1,35 @@
+{
+    "name": "cda-m2i",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "tsc && node ./dist/index.js",
+        "exercice1": "tsc && node ./dist/bienvenue.js",
+        "exercice2": "tsc && node ./dist/addition.js",
+        "exercice3": "tsc && node ./dist/addition.js",
+        "exercice4": "tsc && node ./dist/addition.js",
+        "exercice5": "tsc && node ./dist/addition.js",
+        "exercice6": "tsc && node ./dist/addition.js",
+        "exercice7": "tsc && node ./dist/addition.js",
+        "exercice8": "tsc && node ./dist/addition.js",
+        "exercice9": "tsc && node ./dist/addition.js",
+        "exercice10": "tsc && node ./dist/addition.js",
+        "exercice11": "tsc && node ./dist/addition.js",
+        "exercice12": "tsc && node ./dist/addition.js",
+        "exercice13": "tsc && node ./dist/addition.js"
+
+
+
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "readline-sync": "^1.4.10"
+    },
+    "devDependencies": {
+        "@types/node": "^18.0.0",
+        "@types/readline-sync": "^1.4.4"
+    }
+}
