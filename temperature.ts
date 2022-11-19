@@ -5,18 +5,19 @@
 
 import read from 'readline-sync';
 
+console.log("---températures---")
+
 // let temperatures : number[] = [12, 5, 7, 25, 6, -5];
  let temperatures : number[] = [];
 
-temperatures[0] = +read.question("Saisir une température : ");
-temperatures[1] = +read.question("Saisir une température : ");
-temperatures[2] = +read.question("Saisir une température : ");
-temperatures[3] = +read.question("Saisir une température : ");
-temperatures[4] = +read.question("Saisir une température : ");
-temperatures[5] = +read.question("Saisir une température : ");
+temperatures[0] = +read.question("Saisir une temperature : ");
+temperatures[1] = +read.question("Saisir une temperature : ");
+temperatures[2] = +read.question("Saisir une temperature : ");
+temperatures[3] = +read.question("Saisir une temperature : ");
+temperatures[4] = +read.question("Saisir une temperature : ");
+temperatures[5] = +read.question("Saisir une temperature : ");
 
 let temperatureProche : number = temperatures[0];
-console.log(temperatureProche);
 
 
 //Parcouru mon tableau de temperatures
@@ -30,4 +31,4 @@ for(let index = 0; index < temperatures.length; index++) {
         temperatureProche = temperature;
     }
 }
-console.log(temperatureProche)
+console.log(`la température la pls basse est ${temperatureProche}`)

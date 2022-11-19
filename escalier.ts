@@ -3,6 +3,8 @@
 
 import read from 'readline-sync';
 
+console.log('---escalier---')
+
 let nbr = +read.question("Entrez un nombre : ");
 
 let affichage = "";

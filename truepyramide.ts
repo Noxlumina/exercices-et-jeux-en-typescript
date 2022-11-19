@@ -2,12 +2,15 @@
 
 import read from 'readline-sync';
 
+console.log("---true pyramide---")
+
+
 let etoile = '';
 let espace = "";
 let affichage = ""; 
 let continuer = " ";
 
-while (continuer !== "N") {
+
     let val = +read.question("Saisir un nombre:");
 for(let i= 1; i <= val; i++){
     if(i === 1){
@@ -21,6 +24,4 @@ for(let i= 1; i <= val; i++){
         affichage = espace + etoile;
         console.log(`${affichage}`);
     }
-}
-continuer = read.question("Voulez-vous continuer (N pour arrêter) ");
 }

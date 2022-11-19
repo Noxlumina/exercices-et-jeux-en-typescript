@@ -5,6 +5,8 @@
 
 import read from 'readline-sync';
 
+console.log("---calculatrice---")
+
 let nbr1 : number;
 let operateur : string;
 let nbr2 : number;
@@ -21,7 +23,7 @@ const choixNombre1 = () =>{
  * Permet de choisir l'opérateur
  */    
 const choixOperateur = () =>{
-    operateur = read.question('Saisir opérateur : ');
+    operateur = read.question('Saisir operateur (+, -, * ou /) : ');
 }
 
 /**

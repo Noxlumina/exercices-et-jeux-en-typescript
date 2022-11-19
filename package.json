@@ -8,17 +8,17 @@
         "start": "tsc && node ./dist/index.js",
         "exercice1": "tsc && node ./dist/bienvenue.js",
         "exercice2": "tsc && node ./dist/addition.js",
-        "exercice3": "tsc && node ./dist/addition.js",
-        "exercice4": "tsc && node ./dist/addition.js",
-        "exercice5": "tsc && node ./dist/addition.js",
-        "exercice6": "tsc && node ./dist/addition.js",
-        "exercice7": "tsc && node ./dist/addition.js",
-        "exercice8": "tsc && node ./dist/addition.js",
-        "exercice9": "tsc && node ./dist/addition.js",
-        "exercice10": "tsc && node ./dist/addition.js",
-        "exercice11": "tsc && node ./dist/addition.js",
-        "exercice12": "tsc && node ./dist/addition.js",
-        "exercice13": "tsc && node ./dist/addition.js"
+        "exercice3": "tsc && node ./dist/profitperte.js",
+        "exercice4": "tsc && node ./dist/quiestleplusgrand.js",
+        "exercice5": "tsc && node ./dist/leprof.js",
+        "exercice6": "tsc && node ./dist/calculatrice.js",
+        "exercice7": "tsc && node ./dist/somme.js",
+        "exercice8": "tsc && node ./dist/escalier.js",
+        "exercice9": "tsc && node ./dist/pyramide.js",
+        "exercice10": "tsc && node ./dist/truepyramide.js",
+        "exercice11": "tsc && node ./dist/monnaie.js",
+        "exercice12": "tsc && node ./dist/temperature.js",
+        "exercice13": "tsc && node ./dist/centraledetri.js"
 
 
 

@@ -5,6 +5,6 @@ import read from 'readline-sync';
 const bienvenue = (prenom : string) :void => {
     console.log(`Bienvenue ${prenom} , que veux-tu ?`);
 }
-
+console.log("---bienvenue---")
 let prenom : string = read.question("Tapez votre prenom?");
 bienvenue(prenom);
