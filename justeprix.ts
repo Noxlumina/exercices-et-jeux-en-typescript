@@ -20,6 +20,8 @@
 
 import read from 'readline-sync';
 
+console.log("---juste prix---")
+
 let nbrVie = +read.question("Combien de vie voulez-vous ?");
 let maxAleatoire = +read.question("Nombre aléatoire entre 0 et ");
 let nbrAleatoire = Math.round(Math.random() * maxAleatoire);

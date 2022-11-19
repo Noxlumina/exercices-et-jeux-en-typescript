@@ -1,5 +1,7 @@
 import read from 'readline-sync';
 
+console.log("---morpion---")
+
 //initialisation des variables
 let plateau = initialisationPlateau();
 let user : string;
@@ -90,7 +92,8 @@ function choixJoueur(choix: string) {
             break;}
             else {
                 console.log('case déja utilisée');
-                
+                choix = read.question("Quel case choississez-vous? ");
+                choix = choix.toUpperCase();
             }
         case 'A2':
             if (plateau[0][1] == choix)
@@ -100,7 +103,8 @@ function choixJoueur(choix: string) {
             break;}
             else {
                 console.log('case déja utilisée');
-                
+                choix = read.question("Quel case choississez-vous? ");
+                choix = choix.toUpperCase();
             }
         case 'A3':
             if (plateau[0][2] == choix)
@@ -110,7 +114,8 @@ function choixJoueur(choix: string) {
             break;}
             else {
                 console.log('case déja utilisée');
-                
+                choix = read.question("Quel case choississez-vous? ");
+                choix = choix.toUpperCase();
             }
         case 'B1':
             if (plateau[1][0] == choix)
@@ -120,7 +125,8 @@ function choixJoueur(choix: string) {
             break;}
             else {
                 console.log('case déja utilisée');
-                
+                choix = read.question("Quel case choississez-vous? ");
+                choix = choix.toUpperCase();
             }
         case 'B2':
             if (plateau[1][1] == choix)
@@ -130,7 +136,8 @@ function choixJoueur(choix: string) {
             break;}
             else {
                 console.log('case déja utilisée');
-                
+                choix = read.question("Quel case choississez-vous? ");
+                choix = choix.toUpperCase();
             }
         case 'B3':
             if (plateau[1][2] == choix)
@@ -140,7 +147,8 @@ function choixJoueur(choix: string) {
             break;}
             else {
                 console.log('case déja utilisée');
-                
+                choix = read.question("Quel case choississez-vous? ");
+                choix = choix.toUpperCase();
             }
         case 'C1':
             if (plateau[2][0] == choix)
@@ -150,7 +158,8 @@ function choixJoueur(choix: string) {
             break;}
             else {
                 console.log('case déja utilisée');
-                
+                choix = read.question("Quel case choississez-vous? ");
+                choix = choix.toUpperCase();
             }
         case 'C2':
             if (plateau[2][1] == choix)
@@ -160,7 +169,8 @@ function choixJoueur(choix: string) {
             break;}
             else {
                 console.log('case déja utilisée');
-                
+                choix = read.question("Quel case choississez-vous? ");
+                choix = choix.toUpperCase();
             }
         case 'C3':
             if (plateau[2][2] == choix)
@@ -170,12 +180,13 @@ function choixJoueur(choix: string) {
             break;}
             else {
                 console.log('case déja utilisée');
-                
+                choix = read.question("Quel case choississez-vous? ");
+                choix = choix.toUpperCase();
             }
         default:
             console.error("choix non valide");
             choix = read.question("Quel case choississez-vous? ");
-
+            choix = choix.toUpperCase();
     };
     return choix;
 }

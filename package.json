@@ -18,7 +18,17 @@
         "exercice10": "tsc && node ./dist/truepyramide.js",
         "exercice11": "tsc && node ./dist/monnaie.js",
         "exercice12": "tsc && node ./dist/temperature.js",
-        "exercice13": "tsc && node ./dist/centraledetri.js"
+        "exercice13": "tsc && node ./dist/centraledetri.js",
+        "jeux1": "tsc && node ./dist/fizzbuzz.js",
+        "jeux2": "tsc && node ./dist/justeprix.js",
+        "jeux3": "tsc && node ./dist/rollercoaster.js",
+        "jeux4": "tsc && node ./dist/pendu.js",
+        "jeux5": "tsc && node ./dist/roulette.js",
+        "jeux6": "tsc && node ./dist/chiffrage.js",
+        "jeux7": "tsc && node ./dist/morpion.js"
+
+
+
 
 
 

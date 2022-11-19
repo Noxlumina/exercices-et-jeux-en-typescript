@@ -12,6 +12,8 @@
 // ▪Saisir une clé de chiffrage (cle)
 // Affichez le message codé dans la console.
 
+console.log("---Le chiffrage de César---")
+
 let messageDéchiffré : string = '';
 
 // function cesar(messageAchiffer : string, key : number):string {

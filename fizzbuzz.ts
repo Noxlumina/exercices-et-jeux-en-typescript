@@ -6,6 +6,8 @@
 
 import read from 'readline-sync';
 
+console.log("---fizzbuzz---")
+
 let nbr = +read.question("Entrez un nombre : ");
 
 for ( let index = 0; index <= nbr; index++) {

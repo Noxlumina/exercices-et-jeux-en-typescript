@@ -18,6 +18,8 @@
 
 import read from 'readline-sync';
 
+console.log("---pendu---")
+
 // initialisation des variables
 let mot : string = '';
 let vie : number = 5;

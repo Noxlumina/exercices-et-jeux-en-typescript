@@ -16,6 +16,8 @@
 // file), écrivez un programme permettant de calculer les profits du 
 // Roller Coaster sur une journée.
 
+console.log("---rollercoaster---")
+
 // variables données
 let nb_place : number = 5;
 let nb_tours : number = 3;

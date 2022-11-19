@@ -12,6 +12,8 @@
 
 import read from 'readline-sync';
 
+console.log("---La roulette russe---")
+
 function getRandomInt(max:number) {
     return Math.round(Math.random() * (max+1))/10;
   }
